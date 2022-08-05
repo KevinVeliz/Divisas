@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConvertidorDeDivisas.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <StackLayout>
+            <Label Text="Bienvenido al" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Label Text="Convertidor de Divisas" HorizontalTextAlignment="Center" TextColor="White" FontSize="30"/>
+            </StackLayout>
+        </Frame>
+
+        <StackLayout Margin="20" VerticalOptions="Center">
+        <Image Source="https://i.ibb.co/Z679FRB/money.png" Margin="10,20,10,50"/>
+            
+        <Button Text=" Ir a Convertir" BorderColor="Aqua" BackgroundColor="#2196F3" Clicked="Button_Navigate"/>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="Creadores" HorizontalOptions="Center" FontSize="20" TextColor="#2196F3"/>
+            <Label Text="Lizbeth García" HorizontalOptions="Center" FontSize="15"/>
+            <Label Text="Kevin Veliz" HorizontalOptions="Center" FontSize="15"/>
+            <Label Text="Christopher Vera" HorizontalOptions="Center" FontSize="15"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

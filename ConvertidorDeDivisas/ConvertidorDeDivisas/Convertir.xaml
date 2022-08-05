@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConvertidorDeDivisas.Convertir">
+
+        <Grid BackgroundColor="white">
+        <StackLayout Margin="20" Spacing="10">
+
+            <Label Text="Conversiones" FontSize="Large" HorizontalOptions="Center"/>
+            <Label Text="Introduzca el valor a convertir" FontSize="Medium" HorizontalOptions="Center"/>
+            
+            <Frame HasShadow="False" CornerRadius="10">
+                <Entry x:Name="Valor" Keyboard="Numeric" Placeholder="Valor a convertir" TextColor="Black"/>
+            </Frame>
+
+            <Button Text="De dolares a pesos" x:Name="Pesos" Clicked="Pesos_Clicked" BackgroundColor="#E6E77C"/>
+            <Button Text="De dolares a euros" x:Name="Euros" Clicked="Euros_Clicked" BackgroundColor="#89E77C"/>
+            <Button Text="De dolares a libras" x:Name="Libras" Clicked="Libras_Clicked" BackgroundColor="#7CE7DC"/>
+            <Button Text="De dolares a soles" x:Name="Soles" Clicked="Soles_Clicked" BackgroundColor="#7CBEE7"/>
+            <Button Text="De dolares a yenes" x:Name="Yenes" Clicked="Yenes_Clicked" BackgroundColor="#A67CE7"/>
+
+            <Frame>
+                <StackLayout>
+                   <Label FontSize="Medium" x:Name="Result" Text="0.0" TextColor="Black"></Label>
+                </StackLayout>
+            </Frame>
+
+            <Button Text="Volver" Clicked="Button_Back" BackgroundColor="#2196F3"/>
+        </StackLayout>
+        </Grid>
+</ContentPage>
