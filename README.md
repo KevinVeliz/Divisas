@@ -20,7 +20,11 @@ Además de esto tenemos las respectivos segmentos para agregar los valores y mos
 ![image](https://user-images.githubusercontent.com/65980001/182980850-e59dd3cd-c2e3-4065-89e2-369a2b1d8195.png)
 
 
+# LINK DEL APK
+https://www.mediafire.com/file/34n5o1zmfw1kba3/Divisas.apk/file
+
 # CREADORES
 - Lizbeth García
 - Kevin Veliz
 - Christopher Vera
+
