@@ -1,7 +1,8 @@
 # ConvertidorDeDivisas
 ### Interfaz principal de la App
 ```
-Nuestra app tiene una interfaz sencilla donde muestra un titulo general, una imagen refrente a la funcionalidad que tiene la app 
+Nuestra app tiene una interfaz sencilla donde muestra un titulo general 
+una imagen refrente a la funcionalidad que tiene la app 
 un botón para cambiar de vista y los creadores de la app.
 ```
 ![image](https://user-images.githubusercontent.com/65980001/182980307-00a13279-1008-4125-93dd-89a91e8b564b.png)
